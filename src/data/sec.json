@@ -1,19 +1,19 @@
 [
   {
     "_id": 1,
-    "name": "Thomas Waweru",
+    "name": "Brian Waweru",
     "image": "thom.jpeg",
     "votes":0
   },
   {
     "_id": 2,
-    "name": "Oliver Kamua",
+    "name": "Oscar Kambona",
     "image": "oliver.jpeg",
     "votes":0
   },
   {
     "_id": 3,
-    "name": "Jane Wambui",
+    "name": "Dedan Kimathi",
     "image": "jane.jpeg",
     "votes":0
   }

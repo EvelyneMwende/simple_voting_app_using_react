@@ -30,7 +30,7 @@ function SpokesPersonView() {
                 <Col md={4}>
                   <VoterView
                       candidate={spokeperson}
-                      incrementVoteCount={(spokesPersonId) => incrementVoteCount(presidentId)}
+                      incrementVoteCount={(spokesPersonId) => incrementVoteCount(spokesPersonId)}
                   />
                 </Col>
             );
