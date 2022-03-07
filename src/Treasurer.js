@@ -23,6 +23,8 @@ function TreasurerView() {
   }
 
   return (
+    <div>
+    <h1> TREASURER CANDIDATES</h1>
       <Container className="app">
         <Row>
           {treasurers.map((treasurer) => {
@@ -37,6 +39,7 @@ function TreasurerView() {
           })}
         </Row>
       </Container>
+      </div>
   );
 }
 export default TreasurerView;

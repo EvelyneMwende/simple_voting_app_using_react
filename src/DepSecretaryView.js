@@ -23,6 +23,8 @@ function DeputySecretaryView() {
   }
 
   return (
+    <div>
+    <h1>DEPUTY SECRETARY CANDIDATES</h1>
       <Container className="app">
         <Row>
           {Deputysecretary.map((DepSec) => {
@@ -37,6 +39,7 @@ function DeputySecretaryView() {
           })}
         </Row>
       </Container>
+      </div>
   );
 }
 export default DeputySecretaryView;

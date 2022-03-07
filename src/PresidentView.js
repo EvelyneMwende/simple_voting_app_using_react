@@ -23,6 +23,8 @@ function PresidentView() {
   }
 
   return (
+    <div>
+        <h1>PRESIDENTIAL CANDIDATES</h1>
       <Container className="app">
         <Row>
           {presidents.map((president) => {
@@ -37,6 +39,7 @@ function PresidentView() {
           })}
         </Row>
       </Container>
+      </div>
   );
 }
 export default PresidentView;

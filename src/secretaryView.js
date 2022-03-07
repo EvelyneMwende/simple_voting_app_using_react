@@ -23,6 +23,8 @@ function SecretaryView() {
   }
 
   return (
+    <div>
+    <h1>SECRETARIAL CANDIDATES</h1>
       <Container className="app">
         <Row>
           {secretary.map((sec) => {
@@ -37,6 +39,7 @@ function SecretaryView() {
           })}
         </Row>
       </Container>
+      </div>
   );
 }
 export default SecretaryView;

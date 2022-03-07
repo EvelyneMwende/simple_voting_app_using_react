@@ -23,6 +23,8 @@ function SpokesPersonView() {
   }
 
   return (
+    <div>
+        <h1> SPOKESPERSON CANDIDATES</h1>
       <Container className="app">
         <Row>
           {spokesPersons.map((spokeperson) => {
@@ -37,6 +39,7 @@ function SpokesPersonView() {
           })}
         </Row>
       </Container>
+      </div>
   );
 }
 export default SpokesPersonView;

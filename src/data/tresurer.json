@@ -16,5 +16,11 @@
     "name": "Janet Kuria",
     "image": "jane.jpeg",
     "votes":0
+  },
+  {
+    "_id": 4,
+    "name": "Faith Juma",
+    "image": "faith.jfif",
+    "votes":0
   }
 ]
